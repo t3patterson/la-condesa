@@ -2,7 +2,10 @@
   box-sizing: border-box;
 }
 
-
+img {
+  max-width: 100%;
+  height: 100%;
+}
 
 
 /*------------------*/
@@ -32,17 +35,76 @@
 .s-grid_8,
 .s-grid_9,
 .s-grid_10,
-.s-grid_11
+.s-grid_11,
+.s-grid_12
  {
-  margin: 0 2% 1% 0%;
+  margin: 0 2% 4% 0%;
   float: left;
   display: block;
 }
 
 .end-col {
-  margin: 0 0% 1% 0%;
+  margin: 0 0% 4% 0%;
 }
 
+/*Styling*/
+
+.container {
+  padding: 4%;
+  font-family: 'Palatino', serif;
+}
+
+.logo {
+    height: 300px;
+    background: #210;
+    color: #bc7;
+    margin-bottom: 0%;
+    text-shadow: .04em .04em #111;
+}
+  .logo h1{
+    text-align: center;
+    padding: 15% 2.5% 5% 2.5%; 
+    font-size: 1.8em;
+    font-family: 'Damion', 'Palatino', serif;
+  }
+  
+  .logo p {
+    text-align: center;
+    padding: 3% 10%; 
+    font-size: 1.0em;
+    line-height: 1.2em;
+    word-spacing: 0.07em;
+    
+  }
+
+.food-pic {
+  background: #999;
+  margin-top: 0;
+  height: 300px;
+  }
+
+.menu {
+  background: #210;
+  height: 300px;
+  padding: 40% 10%;
+  font-size: 4.0em;
+  color: white;
+  text-align: center;
+  font-family: 'Tahoma', sans-serif;
+}
+
+.slideshow {
+ }
+  .gallery {
+    height: 320px;
+  }
+
+  .gallery-nav {
+    height: 40px;
+    background: #210;
+    color: #fff;
+    text-align: center;
+  }
 
 } /* end small-res media query*/
 
