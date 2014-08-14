@@ -43,7 +43,7 @@ img {
   display: block;
 }
 
-.end-col {
+.s-end_col {
   margin: 0 0% 4% 0%;
 }
 
@@ -57,9 +57,9 @@ img {
 .logo {
     height: 300px;
     background: #210;
-    color: #bc7;
     margin-bottom: 0%;
-    text-shadow: .04em .04em #111;
+    color: #ffb;
+    text-shadow: .10em .10em #111;
 }
   .logo h1{
     text-align: center;
@@ -86,9 +86,9 @@ img {
 .menu {
   background: #210;
   height: 300px;
-  padding: 40% 10%;
+  padding: 50px 10%;
   font-size: 4.0em;
-  color: white;
+  color: #ffb;
   text-align: center;
   font-family: 'Tahoma', sans-serif;
 }
@@ -98,13 +98,55 @@ img {
   .gallery {
     height: 320px;
   }
+    .gallery img{
+      width: 100%;
+    }
 
   .gallery-nav {
-    height: 40px;
+    height: 45px;
     background: #210;
     color: #fff;
     text-align: center;
   }
+    .gallery-nav img{
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+
+    }
+    
+      img.left-arrow {
+        float: left;
+        margin: 8px 0 8px 40%;
+      }
+      img.right-arrow {
+        float: right;
+        margin: 8px 40% 8px 0;
+      }
+
+.contact-us{
+    height: 400px;
+    background: #29327f;
+    color: #fff;
+    text-align: center;
+    padding-top: 15%
+     }
+    
+  .contact-us h3{
+    font-size: 1.7em;
+    margin-bottom: 2.5%;
+    font-family: 'Tahoma', sans-serif;
+    color: #ffb;
+  }
+
+  .contact-us p {
+    font-size: 1.0em;
+    line-height: 1.3em
+  }
+
+.socialmedia img{
+  width: 100%
+}
 
 } /* end small-res media query*/
 
@@ -142,7 +184,7 @@ img {
   display: block;
 }
 
-.end-col {
+.m-end_col {
   margin: 0 0% 1% 0%;
 }
 
@@ -186,7 +228,7 @@ img {
   display: block;
 }
 
-.l-end-col {
+.l-end_col {
   margin: 0 0% 1% 0%;
 }
 
