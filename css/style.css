@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+
+
+
+
+/*------------------*/
+/*Small Resolutions*/
+/*------------------*/
+@media only screen and (min-device-width: 480px){
+  .s-grid_1 {width: 6.5%;}
+  .s-grid_2 {width: 15%;}
+  .s-grid_3 {width: 23.5%;}
+  .s-grid_4 {width: 32%;}
+  .s-grid_5 {width: 40.5%;}
+  .s-grid_6 {width: 49%;}
+  .s-grid_7 {width: 57.5%;}
+  .s-grid_8 {width: 66%;}
+  .s-grid_9 {width: 74.5%;}
+  .s-grid_10 {width: 83.0%;}
+  .s-grid_11 {width: 91.5%;}
+  .s-grid_12 {width: 100%;}
+  
+.s-grid_1
+.s-grid_2,
+.s-grid_3,
+.s-grid_4,
+.s-grid_5,
+.s-grid_6,
+.s-grid_7,
+.s-grid_8,
+.s-grid_9,
+.s-grid_10,
+.s-grid_11
+ {
+  margin: 0 2% 1% 0%;
+  float: left;
+  display: block;
+}
+
+.end-col {
+  margin: 0 0% 1% 0%;
+}
+
+
+} /* end small-res media query*/
+
+/*------------------*/
+/*Medium Resolutions*/
+/*------------------*/
+@media only screen and (min-device-width: 759px){
+  .m-grid_1 {width: 6.5%;}
+  .m-grid_2 {width: 15%;}
+  .m-grid_3 {width: 23.5%;}
+  .m-grid_4 {width: 32%;}
+  .m-grid_5 {width: 40.5%;}
+  .m-grid_6 {width: 49%;}
+  .m-grid_7 {width: 57.5%;}
+  .m-grid_8 {width: 66%;}
+  .m-grid_9 {width: 74.5%;}
+  .m-grid_10 {width: 83.0%;}
+  .m-grid_11 {width: 91.5%;}
+  .m-grid_12 {width: 100%;}
+  
+.m-grid_1
+.m-grid_2,
+.m-grid_3,
+.m-grid_4,
+.m-grid_5,
+.m-grid_6,
+.m-grid_7,
+.m-grid_8,
+.m-grid_9,
+.m-grid_10,
+.m-grid_11
+ {
+  margin: 0 2% 1% 0%;
+  float: left;
+  display: block;
+}
+
+.end-col {
+  margin: 0 0% 1% 0%;
+}
+
+
+
+} /* end med-res media query*/
+
+
+
+/*------------------*/
+/*Larger Resolutions*/
+/*------------------*/
+@media screen and (min-width: 959px){
+  .l-grid_1 {width: 6.5%;}
+  .l-grid_2 {width: 15%;}
+  .l-grid_3 {width: 23.5%;}
+  .l-grid_4 {width: 32%;}
+  .l-grid_5 {width: 40.5%;}
+  .l-grid_6 {width: 49%;}
+  .l-grid_7 {width: 57.5%;}
+  .l-grid_8 {width: 66%;}
+  .l-grid_9 {width: 74.5%;}
+  .l-grid_10 {width: 83.0%;}
+  .l-grid_11 {width: 91.5%;}
+  .l-grid_12 {width: 100%;}
+  
+.l-grid_1
+.l-grid_2,
+.l-grid_3,
+.l-grid_4,
+.l-grid_5,
+.l-grid_6,
+.l-grid_7,
+.l-grid_8,
+.l-grid_9,
+.l-grid_10,
+.l-grid_11
+ {
+  margin: 0 2% 1% 0%;
+  float: left;
+  display: block;
+}
+
+.l-end-col {
+  margin: 0 0% 1% 0%;
+}
+
+
+
+} /* end large-res media query*/
