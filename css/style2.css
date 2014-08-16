@@ -59,11 +59,11 @@ img {
 
 
 .sml-header {
-    height: 600px;
-    background: #100;
+    height: 550px;
+    background: #150000;
 }
   .sml-header-logo {
-    height: 300px;
+    height: 250px;
   }
 
   .sml-header h1{
@@ -93,21 +93,34 @@ img {
       }
 
 .menu {
-  background: #100;
+  background: #150000;
   height: 300px;
   padding: 110px 10%;
   font-size: 4.0em;
   color: #ffb;
   text-align: center;
   font-family: 'Tahoma', sans-serif;
+  cursor: pointer;
 }
 
 .slideshow {
  }
   .gallery {
     height: 320px;
+    overflow: hidden;
   }
+   
+   .gallery ul {
+   }
+
+    .gallery li {
+      height: 100%;
+      width: 100%;
+      float: left;
+    
+    }
     .gallery img{
+      height: 100%;
       width: 100%;
     }
 
@@ -121,21 +134,22 @@ img {
       display: inline-block;
       width: 30px;
       height: 30px;
+      cursor: pointer;
 
     }
     
       img.left-arrow {
         float: left;
-        margin: 8px 0 8px 40%;
+        margin: 8px 0 8px 35%;
       }
       img.right-arrow {
         float: right;
-        margin: 8px 40% 8px 0;
+        margin: 8px 35% 8px 0;
       }
 
 .contact-us{
     height: 400px;
-    background: #013;
+    background: #580000;
     color: #fff;
     text-align: center;
     padding-top: 15%
@@ -160,9 +174,134 @@ img {
 } /* end small-res media query*/
 
 /*------------------*/
+/*------------------*/
+/*Medium Resolutions*/
+/*------------------*/
+/*------------------*/
+
+@media screen and (min-width: 660px){
+
+  .m-grid_1 {width: 6.5%;}
+  .m-grid_2 {width: 15%;}
+  .m-grid_3 {width: 23.5%;}
+  .m-grid_4 {width: 32%;}
+  .m-grid_5 {width: 40.5%;}
+  .m-grid_6 {width: 49%;}
+  .m-grid_7 {width: 57.5%;}
+  .m-grid_8 {width: 66%;}
+  .m-grid_9 {width: 74.5%;}
+  .m-grid_10 {width: 83.0%;}
+  .m-grid_11 {width: 91.5%;}
+  .m-grid_12 {width: 100%;}
+  
+.m-grid_1
+.m-grid_2,
+.m-grid_3,
+.m-grid_4,
+.m-grid_5,
+.m-grid_6,
+.m-grid_7,
+.m-grid_8,
+.m-grid_9,
+.m-grid_10,
+.m-grid_11.
+.m-grid_12
+ {
+  margin: 0 2% 1% 0%;
+  float: left;
+  display: block;
+}
+
+.m-end_col {
+  margin: 0 0% 1% 0%;
+}
+
+.sml-header{
+  display: none;
+}
+
+.container {
+  padding: 2%;
+  font-family: 'Palatino', serif;
+}
+
+.lrg-header {
+  display: block;
+  position: relative;
+  border: 1px solid gray;
+  background: #150000;
+  height: 450px;
+}
+  .lrg-header img{
+    width: 100%;
+  }
+  .lrg-logo-block{
+    background: #150000;
+    height: 240px;
+    width: 240px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+  }
+    .lrg-logo-block h1{
+    padding: 20px 20px 5px 20px;
+  }
+        .lrg-logo-block h1{
+        width: 95%;
+        }
+
+    .lrg-logo-block p {
+    text-align: center;
+    padding: 0px 25px 5px 25px; 
+    font-size: 1.0em;
+    line-height: 1.2em;
+    word-spacing: 0.07em;
+    text-shadow: .10em .10em #111;
+    
+  }
+  .menu {
+    height: 365px;
+    padding: 120px 0px 0px 0px;
+  }
+  
+  .contact-us {
+    height:500px;
+    padding-top: 80px;
+    background: #400;
+  }
+    .contact-us h3{
+      font-size: 2.1em
+    }
+    
+    .contact-us p{
+      font-size: 1.2em
+    }
+
+  .socialmedia {
+    height: 500px;
+    display: block;
+    float: left;
+  }
+    .socialmedia div{
+      width: 100%;
+      height: 240px;
+      }
+
+      .socialmedia div:first-child{
+      margin-bottom: 20px;
+      }
+  
+}
+
+
+
+/*------------------*/
+/*------------------*/
 /*Larger Resolutions*/
 /*------------------*/
-@media screen and (min-width: 660px){
+/*------------------*/
+@media screen and (min-width: 1024px){
   .l-grid_1 {width: 6.5%;}
   .l-grid_2 {width: 15%;}
   .l-grid_3 {width: 23.5%;}
@@ -211,18 +350,18 @@ img {
   display: block;
   position: relative;
   border: 1px solid gray;
-  background: #222;
-  height: 450px;
+  background: #150000;
+  height: 650px;
 }
   .lrg-header img{
     width: 100%;
   }
   .lrg-logo-block{
-    background: #100;
+    background: #150000;
     height: 240px;
     width: 240px;
     position: absolute;
-    bottom: 0;
+    top: 0;
     right: 0;
     color: #fff;
   }
@@ -244,25 +383,26 @@ img {
   }
   .menu {
     height: 365px;
-    padding: 120px 0px 0px 0px;
+    padding-top: 140px;
   }
   
   .contact-us {
-    height: 500px;
-    padding-top: 80px;
+    height: 550px;
+    padding-top: 130px;
+    background: #400;
   }
 
   .socialmedia {
-    height: 500px;
+    height: 550px;
   }
     .socialmedia div{
       display: block;
       width: 100%;
-      height: 245px;
+      height: 265px;
       }
 
       .socialmedia div:first-child{
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       }
-
+  
 } /* end large-res media query*/
