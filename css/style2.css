@@ -108,6 +108,7 @@ img {
   .gallery {
     height: 320px;
     overflow: hidden;
+    background: #220000;
   }
    
    .gallery ul {
